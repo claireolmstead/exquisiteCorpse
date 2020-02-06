@@ -132,13 +132,12 @@ h2{
 .flex-container{
   display: flex;
   flex-direction: row;
-  /*1 landing page + 4 people x 100vw = 400 vw*/
+  /*1 landing page + 4 people x 100vw = 500 vw*/
   width: 500vw;
 }
 article{
   height: 100vh;
   width: 100vw;
-  padding: 1%;
 }
 #person1{
   background-color: #FBFFFD; 
