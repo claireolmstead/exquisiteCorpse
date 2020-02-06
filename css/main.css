@@ -101,6 +101,7 @@ html, body{
   font-family: helvetica;
   margin: 0 auto;
   padding: 0;
+  scroll-behavior: smooth;
 }
 header{
   height: 100vh;
@@ -116,11 +117,11 @@ h1{
   font-size: 12vh;
 }
 h2{
-  margin-left: 12%; 
+  margin-left: 12%;
   font-size: 6vh;
 }
 .arrows{
-  margin-top: 25vh; 
+  margin-top: 25vh;
   margin-left: 70%;
   font-size: 10vh;
   transition: font-size 0.5s;
@@ -141,13 +142,13 @@ article{
   padding: 1%;
 }
 #person1{
-  background-color: #FBFFFD; 
+  background-color: #FBFFFD;
 }
 #person2{
-  background-color: #EBFFEE; 
+  background-color: #EBFFEE;
 }
 #person3{
-  background-color: #FBFFFD; 
+  background-color: #FBFFFD;
 }
 #person4{
   background-color: #EBFFEE;
@@ -330,4 +331,3 @@ a:hover{
     page-break-after: avoid;
   }
 }
-
