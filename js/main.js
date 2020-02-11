@@ -42,4 +42,7 @@ function showSlides(n) {
   else if (slideIndex == 7){
     location.href = "#person2_2";
   }
+  else if (slideIndex == 8){
+    location.href = "#person2_3";
+  }
 }

@@ -141,8 +141,8 @@ h4{
 .flex-container{
   display: flex;
   flex-direction: row;
-  /*1 landing page + 6 pages x 100vw = 700 vw*/
-  width: 700vw;
+  /*1 landing page + 7 pages x 100vw = 800 vw*/
+  width: 800vw;
 }
 article{
   height: 100vh;
