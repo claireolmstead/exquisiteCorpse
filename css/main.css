@@ -162,7 +162,11 @@ article{
   background-color: #FBFFFD;
 }
 #person4{
+
   background-color: #EBFFEE;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/concerned.jpeg");
 }
 #person1_2{
   background-color: #FBFFFD;
@@ -174,6 +178,9 @@ article{
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.8s ease;
+}
+#face .para, #face h3{
+  background-color: white;
 }
 .active, .dot:hover {
   background-color: #99B898;
