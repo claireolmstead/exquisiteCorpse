@@ -31,13 +31,20 @@
   <!--<p>Hello world! This is HTML5 Boilerplate.</p>-->
   <main>
     <div class="flex-container">
-      <header id="home">
+      <header id="home" class="slide">
         <h1>This Is Our Exquisite Corpse</h1>
         <h2>Let's see what comes of it...</h2>
+        <div style="text-align:center" id="menuDots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
         <p class="arrows"><a href="#person1">&#x25BA;&#x25BA;&#x25BA;</a></p>
       </header>
       <article id="person1">
-        <div class="part">
+        <div class="part slide">
           <h3>The Beginning</h3>
           <h4>The Life of Xander</h4>
           <p>
@@ -52,7 +59,7 @@
       </article>
 
       <article id="person2">
-        <div class="part">
+        <div class="part slide">
 
         <h3>The Middle</h3>
         <p>
@@ -66,7 +73,7 @@
 
       </article>
       <article id="person3">
-        <div class="part">
+        <div class="part slide">
           <h3>The Other Middle</h3>
           <p>
               Xander had a wonderful life working as a jester for his new Spanish friends. He travelled to strange, far away places and was able to make the native people's he encountered share the joy of laughter. One day Xander arrived at a place called Boulder. There he met strange people with long pieces of wood strapped to their feet. They rode their logs down tall mountains covered in a strange white powder.
@@ -77,7 +84,7 @@
         </div>
       </article>
       <article id="person4">
-        <div class="part">
+        <div class="part slide">
           <h3>The End</h3>
           <p>
             Before he knew it, Xander was in no mood to dance and entertain as a jester. Instead, he wanted one thing, a sandwich and Cheetos. He transported his new findings to the conquistadors, who then had their go with the mysterious new green.
@@ -87,7 +94,7 @@
 
           </p>
           <p>With such a great deal, the clan took the offer, and soon consumed it all, including the strange paper tabs. Soon before they reached their quarters for the night, the road began to walk with them.</p>
-          <p class="arrows"><a href="#home">Back to home</a></p>
+          <p class="arrows" id="backArrows"><a href="#home">&#x25BA;&#x25BA;&#x25BA;</a></p>
         </div>
       </article>
     </div>

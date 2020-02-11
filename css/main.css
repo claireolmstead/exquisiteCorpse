@@ -135,6 +135,9 @@ h4{
   font-size: 13vh;
   cursor: pointer;
 }
+#backArrows{
+  transform: rotate(180deg);
+}
 .flex-container{
   display: flex;
   flex-direction: row;
@@ -161,6 +164,23 @@ article{
 #person4{
   background-color: #EBFFEE;
 }
+.dot{
+  height: 20px;
+  width: 20px;
+  background: grey;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.8s ease;
+}
+.active, .dot:hover {
+  background-color: #99B898;
+}
+#menuDots{
+  position: fixed;
+  margin-left: 3%;
+  bottom: 0;
+  margin-bottom: 3%;
+}
 a:link{
   text-decoration: none;
   color: #C8CCCA;
@@ -179,6 +199,8 @@ footer{
   position: fixed;
   bottom: 0;
   left: 0;
+  background-color: #99B898;
+  width: 100%;
 }
 /* ==========================================================================
    Helper classes
