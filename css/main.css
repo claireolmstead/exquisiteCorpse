@@ -163,16 +163,26 @@ article{
 }
 #person4{
 
-  background-color: #EBFFEE;
+  /* background-color: #EBFFEE; */
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-image: url("../img/concerned.jpeg");
+  background-attachment: fixed;
+
 }
 #person1_2{
   background-color: #FBFFFD;
 }
 #person2_2{
   background-color: #EBFFEE;
+}
+#person2_3{
+
+  /* background-color: #EBFFEE; */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../img/limeHead.png");
+  background-attachment: fixed;
 }
 .dot{
   height: 20px;
@@ -181,6 +191,9 @@ article{
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.8s ease;
+}
+#limeHead{
+  height:25vw;
 }
 #face .para, #face h3{
   background-color: white;
