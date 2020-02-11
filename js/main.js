@@ -45,4 +45,7 @@ function showSlides(n) {
   else if (slideIndex == 8){
     location.href = "#person2_3";
   }
+  else if (slideIndex == 9){
+    location.href = "#person2_3";
+  }
 }
