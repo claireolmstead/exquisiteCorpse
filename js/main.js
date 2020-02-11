@@ -36,4 +36,7 @@ function showSlides(n) {
   else if (slideIndex == 5){
     location.href = "#person4"; 
   }
+  else if (slideIndex == 6){
+    location.href = "#person1_2"; 
+  }
 }

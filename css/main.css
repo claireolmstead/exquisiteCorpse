@@ -142,7 +142,7 @@ h4{
   display: flex;
   flex-direction: row;
   /*1 landing page + 4 people x 100vw = 500 vw*/
-  width: 500vw;
+  width: 600vw;
 }
 article{
   height: 100vh;
@@ -163,6 +163,9 @@ article{
 }
 #person4{
   background-color: #EBFFEE;
+}
+#person1_2{
+  background-color: #FBFFFD;
 }
 .dot{
   height: 20px;
